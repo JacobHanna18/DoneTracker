@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7D3C0F862591891D00B9BD2A /* calenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3C0F852591891D00B9BD2A /* calenderView.swift */; };
+		7DE6F32425929379003CBEB8 /* MatrixSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE6F32325929379003CBEB8 /* MatrixSelection.swift */; };
+		7DE6F32C2592A551003CBEB8 /* FileIcon..icns in Resources */ = {isa = PBXBuildFile; fileRef = 7DE6F32B2592A550003CBEB8 /* FileIcon..icns */; };
 		7DE94CF125917F0500FB35C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94CF025917F0500FB35C4 /* AppDelegate.swift */; };
 		7DE94CF325917F0500FB35C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94CF225917F0500FB35C4 /* SceneDelegate.swift */; };
 		7DE94CF525917F0500FB35C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94CF425917F0500FB35C4 /* ViewController.swift */; };
@@ -61,6 +63,8 @@
 
 /* Begin PBXFileReference section */
 		7D3C0F852591891D00B9BD2A /* calenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderView.swift; sourceTree = "<group>"; };
+		7DE6F32325929379003CBEB8 /* MatrixSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixSelection.swift; sourceTree = "<group>"; };
+		7DE6F32B2592A550003CBEB8 /* FileIcon..icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = FileIcon..icns; sourceTree = "<group>"; };
 		7DE94CED25917F0500FB35C4 /* DoneTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoneTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE94CF025917F0500FB35C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DE94CF225917F0500FB35C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 		7DE94CEF25917F0500FB35C4 /* DoneTracker */ = {
 			isa = PBXGroup;
 			children = (
+				7DE6F32B2592A550003CBEB8 /* FileIcon..icns */,
 				7DE94D572591805500FB35C4 /* DoneTracker.entitlements */,
 				7DE94D2325917F3000FB35C4 /* FormView */,
 				7DE94CF025917F0500FB35C4 /* AppDelegate.swift */,
@@ -217,6 +222,7 @@
 				7DE94D3125917F3000FB35C4 /* ColorInput.swift */,
 				7DE94D3225917F3000FB35C4 /* LongStringInput.swift */,
 				7DE94D3325917F3000FB35C4 /* CellTitleView.swift */,
+				7DE6F32325929379003CBEB8 /* MatrixSelection.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -326,6 +332,7 @@
 			files = (
 				7DE94D4825917F3000FB35C4 /* FormVC.xib in Resources */,
 				7DE94CFD25917F0700FB35C4 /* LaunchScreen.storyboard in Resources */,
+				7DE6F32C2592A551003CBEB8 /* FileIcon..icns in Resources */,
 				7DE94CFA25917F0700FB35C4 /* Assets.xcassets in Resources */,
 				7DE94CF825917F0500FB35C4 /* Main.storyboard in Resources */,
 			);
@@ -375,6 +382,7 @@
 				7DE94D4925917F3000FB35C4 /* FormVC.swift in Sources */,
 				7DE94D4B25917F3000FB35C4 /* extensions.swift in Sources */,
 				7DE94D4125917F3000FB35C4 /* StringTitle.swift in Sources */,
+				7DE6F32425929379003CBEB8 /* MatrixSelection.swift in Sources */,
 				7DE94D4025917F3000FB35C4 /* StringSub1.swift in Sources */,
 				7DE94D3F25917F3000FB35C4 /* StringInput.swift in Sources */,
 				7DE94D522591803700FB35C4 /* Back Up.swift in Sources */,

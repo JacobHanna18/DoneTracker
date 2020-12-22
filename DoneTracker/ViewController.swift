@@ -8,27 +8,35 @@
 import UIKit
 import SwiftUI
 
-class ViewController: UIViewController, Presenting{
+class ViewController: UIViewController, Presenting, ObservableObject, UIDocumentPickerDelegate{
     
     func reload() {
-        print(Lists.selectedIndex)
-        content.rootView.month = content.rootView.month
+        self.navigationController?.view.tintColor = Lists.selectedList.color
+        self.title = Lists.selectedList.name
+        content.rootView.selected = Lists.selectedIndex
     }
+    
+    static var main : ViewController!
 
     @IBOutlet weak var calenderView: UIView!
     var content : UIHostingController<calenderView>!
     
+    var calenderV : calenderView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        ViewController.main = self
         if Lists.value.count == 0{
             Lists.newList()
         }
+        self.title = Lists.selectedList.name
+        self.navigationController?.view.tintColor = Lists.selectedList.color
+        calenderV = DoneTracker.calenderView(month: Day().m, year: Day().y, selected: Lists.selectedIndex)
         setContent()
-
     }
     
     func setContent(){
-        content = UIHostingController(rootView: DoneTracker.calenderView(month: Day().m, year: Day().y))
+        content = UIHostingController(rootView: calenderV)
         
         content.view.backgroundColor = UIColor.clear
         addChild(content)
@@ -44,6 +52,16 @@ class ViewController: UIViewController, Presenting{
     
     @IBAction func selectMenu(_ sender: Any) {
         self.showForm({Lists.props})
+    }
+    
+    func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]){
+        do{
+            let file = try String(contentsOf: urls[0], encoding: String.Encoding.utf8)
+            Lists.newFrom(json: file)
+            FormVC.top?.reload()
+        }catch{
+        }
+        
     }
 
 }

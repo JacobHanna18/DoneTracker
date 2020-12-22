@@ -14,17 +14,33 @@ struct calenderView: View {
         return Calender(month: month, year: year)
     }
     @State var done : [[Bool]] = [[Bool]](repeating: [Bool](repeating: false, count: 7), count: 6)
+    var color = Color(Lists.selectedList.color)
+    var selected : Int{
+        didSet{
+            doneImage = Lists.selectedList.doneImageName
+            undoneImage = Lists.selectedList.undoneImageName
+            color = Color(Lists.selectedList.color)
+        }
+    }
+    var doneImage : String = Lists.selectedList.doneImageName
+    var undoneImage : String = Lists.selectedList.undoneImageName
+    @State var monthCount : Int = 0
     
     func getDoneArray(){
+        monthCount = 0
         for i in 0 ..< 6{
             for j in 0 ..< 7{
                 done[i][j] = Lists.selectedList[c[i,j]]
+                if c[i,j].m == month{
+                    monthCount += done[i][j] ? 1 : 0
+                }
             }
         }
     }
+
     var body: some View {
         VStack{
-            Spacer()
+            Text("Month count: \(monthCount)").padding()
             HStack{
                 Button(action: {
                     (month, year) = c.next()
@@ -32,7 +48,7 @@ struct calenderView: View {
                     
                 }, label: {
                     Image(systemName: "arrow.left").font(.title)
-                })
+                }).padding()
                 Spacer()
                 VStack {
                     Text(Calender.months[month-1])
@@ -44,7 +60,7 @@ struct calenderView: View {
                     getDoneArray()
                 }, label: {
                     Image(systemName: "arrow.right").font(.title)
-                })
+                }).padding()
             }
             Spacer()
             HStack {
@@ -66,11 +82,11 @@ struct calenderView: View {
                             Button(action: {
                                 done[i][j].toggle()
                                 Lists.selectedList[c[i,j]] = done[i][j]
+                                monthCount += done[i][j] ? 1 : -1
                             }, label: {
-                                Image(systemName: done[i][j] ? Lists.selectedList.doneImageName : Lists.selectedList.undoneImageName).font(.title)
+                                Image(systemName: done[i][j] ? doneImage : undoneImage).font(.title)
                             })
-                        }
-                        //dayView(doneImage: "checkmark.circle", unDoneImage: "circle", day: c[i, j])
+                        }.opacity(c[i,j].m == month ? 1 : 0.6)
                         Spacer()
                     }
                     
@@ -79,12 +95,8 @@ struct calenderView: View {
             }
         }.onAppear(perform: {
             getDoneArray()
-        })
-    }
-}
-
-struct calenderView_Previews: PreviewProvider {
-    static var previews: some View {
-        calenderView(month: Day().m, year: Day().y)
+        }).onChange(of: selected, perform: { value in
+            getDoneArray()
+        }).accentColor(color)
     }
 }
