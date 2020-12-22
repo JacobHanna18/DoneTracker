@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D3C0F862591891D00B9BD2A /* calenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3C0F852591891D00B9BD2A /* calenderView.swift */; };
 		7DE94CF125917F0500FB35C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94CF025917F0500FB35C4 /* AppDelegate.swift */; };
 		7DE94CF325917F0500FB35C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94CF225917F0500FB35C4 /* SceneDelegate.swift */; };
 		7DE94CF525917F0500FB35C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94CF425917F0500FB35C4 /* ViewController.swift */; };
@@ -15,6 +16,30 @@
 		7DE94CFD25917F0700FB35C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE94CFB25917F0700FB35C4 /* LaunchScreen.storyboard */; };
 		7DE94D0825917F0700FB35C4 /* DoneTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D0725917F0700FB35C4 /* DoneTrackerTests.swift */; };
 		7DE94D1325917F0700FB35C4 /* DoneTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D1225917F0700FB35C4 /* DoneTrackerUITests.swift */; };
+		7DE94D3925917F3000FB35C4 /* StringSub2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2525917F3000FB35C4 /* StringSub2.swift */; };
+		7DE94D3A25917F3000FB35C4 /* ImageSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2625917F3000FB35C4 /* ImageSelection.swift */; };
+		7DE94D3B25917F3000FB35C4 /* DateInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2725917F3000FB35C4 /* DateInput.swift */; };
+		7DE94D3C25917F3000FB35C4 /* DoubleSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2825917F3000FB35C4 /* DoubleSub.swift */; };
+		7DE94D3D25917F3000FB35C4 /* IntInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2925917F3000FB35C4 /* IntInput.swift */; };
+		7DE94D3E25917F3000FB35C4 /* BoolInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2A25917F3000FB35C4 /* BoolInput.swift */; };
+		7DE94D3F25917F3000FB35C4 /* StringInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2B25917F3000FB35C4 /* StringInput.swift */; };
+		7DE94D4025917F3000FB35C4 /* StringSub1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2C25917F3000FB35C4 /* StringSub1.swift */; };
+		7DE94D4125917F3000FB35C4 /* StringTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2D25917F3000FB35C4 /* StringTitle.swift */; };
+		7DE94D4225917F3000FB35C4 /* SingleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2E25917F3000FB35C4 /* SingleSelection.swift */; };
+		7DE94D4325917F3000FB35C4 /* IntSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D2F25917F3000FB35C4 /* IntSub.swift */; };
+		7DE94D4425917F3000FB35C4 /* DoubleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D3025917F3000FB35C4 /* DoubleInput.swift */; };
+		7DE94D4525917F3000FB35C4 /* ColorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D3125917F3000FB35C4 /* ColorInput.swift */; };
+		7DE94D4625917F3000FB35C4 /* LongStringInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D3225917F3000FB35C4 /* LongStringInput.swift */; };
+		7DE94D4725917F3000FB35C4 /* CellTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D3325917F3000FB35C4 /* CellTitleView.swift */; };
+		7DE94D4825917F3000FB35C4 /* FormVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DE94D3425917F3000FB35C4 /* FormVC.xib */; };
+		7DE94D4925917F3000FB35C4 /* FormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D3525917F3000FB35C4 /* FormVC.swift */; };
+		7DE94D4A25917F3000FB35C4 /* FormProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D3625917F3000FB35C4 /* FormProperties.swift */; };
+		7DE94D4B25917F3000FB35C4 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D3725917F3000FB35C4 /* extensions.swift */; };
+		7DE94D4C25917F3000FB35C4 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D3825917F3000FB35C4 /* FormView.swift */; };
+		7DE94D522591803700FB35C4 /* Back Up.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D502591803700FB35C4 /* Back Up.swift */; };
+		7DE94D532591803700FB35C4 /* Settings Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D512591803700FB35C4 /* Settings Classes.swift */; };
+		7DE94D5C259180EA00FB35C4 /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D5B259180EA00FB35C4 /* Calender.swift */; };
+		7DE94D65259181F200FB35C4 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE94D64259181F200FB35C4 /* List.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D3C0F852591891D00B9BD2A /* calenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderView.swift; sourceTree = "<group>"; };
 		7DE94CED25917F0500FB35C4 /* DoneTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoneTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE94CF025917F0500FB35C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DE94CF225917F0500FB35C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +75,31 @@
 		7DE94D0E25917F0700FB35C4 /* DoneTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoneTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE94D1225917F0700FB35C4 /* DoneTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTrackerUITests.swift; sourceTree = "<group>"; };
 		7DE94D1425917F0700FB35C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE94D2525917F3000FB35C4 /* StringSub2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringSub2.swift; sourceTree = "<group>"; };
+		7DE94D2625917F3000FB35C4 /* ImageSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelection.swift; sourceTree = "<group>"; };
+		7DE94D2725917F3000FB35C4 /* DateInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateInput.swift; sourceTree = "<group>"; };
+		7DE94D2825917F3000FB35C4 /* DoubleSub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleSub.swift; sourceTree = "<group>"; };
+		7DE94D2925917F3000FB35C4 /* IntInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntInput.swift; sourceTree = "<group>"; };
+		7DE94D2A25917F3000FB35C4 /* BoolInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolInput.swift; sourceTree = "<group>"; };
+		7DE94D2B25917F3000FB35C4 /* StringInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringInput.swift; sourceTree = "<group>"; };
+		7DE94D2C25917F3000FB35C4 /* StringSub1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringSub1.swift; sourceTree = "<group>"; };
+		7DE94D2D25917F3000FB35C4 /* StringTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTitle.swift; sourceTree = "<group>"; };
+		7DE94D2E25917F3000FB35C4 /* SingleSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSelection.swift; sourceTree = "<group>"; };
+		7DE94D2F25917F3000FB35C4 /* IntSub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntSub.swift; sourceTree = "<group>"; };
+		7DE94D3025917F3000FB35C4 /* DoubleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleInput.swift; sourceTree = "<group>"; };
+		7DE94D3125917F3000FB35C4 /* ColorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorInput.swift; sourceTree = "<group>"; };
+		7DE94D3225917F3000FB35C4 /* LongStringInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongStringInput.swift; sourceTree = "<group>"; };
+		7DE94D3325917F3000FB35C4 /* CellTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTitleView.swift; sourceTree = "<group>"; };
+		7DE94D3425917F3000FB35C4 /* FormVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormVC.xib; sourceTree = "<group>"; };
+		7DE94D3525917F3000FB35C4 /* FormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormVC.swift; sourceTree = "<group>"; };
+		7DE94D3625917F3000FB35C4 /* FormProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormProperties.swift; sourceTree = "<group>"; };
+		7DE94D3725917F3000FB35C4 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		7DE94D3825917F3000FB35C4 /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		7DE94D502591803700FB35C4 /* Back Up.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Back Up.swift"; sourceTree = "<group>"; };
+		7DE94D512591803700FB35C4 /* Settings Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Settings Classes.swift"; sourceTree = "<group>"; };
+		7DE94D572591805500FB35C4 /* DoneTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DoneTracker.entitlements; sourceTree = "<group>"; };
+		7DE94D5B259180EA00FB35C4 /* Calender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
+		7DE94D64259181F200FB35C4 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +150,8 @@
 		7DE94CEF25917F0500FB35C4 /* DoneTracker */ = {
 			isa = PBXGroup;
 			children = (
+				7DE94D572591805500FB35C4 /* DoneTracker.entitlements */,
+				7DE94D2325917F3000FB35C4 /* FormView */,
 				7DE94CF025917F0500FB35C4 /* AppDelegate.swift */,
 				7DE94CF225917F0500FB35C4 /* SceneDelegate.swift */,
 				7DE94CF425917F0500FB35C4 /* ViewController.swift */,
@@ -106,6 +159,11 @@
 				7DE94CF925917F0700FB35C4 /* Assets.xcassets */,
 				7DE94CFB25917F0700FB35C4 /* LaunchScreen.storyboard */,
 				7DE94CFE25917F0700FB35C4 /* Info.plist */,
+				7DE94D502591803700FB35C4 /* Back Up.swift */,
+				7DE94D512591803700FB35C4 /* Settings Classes.swift */,
+				7DE94D5B259180EA00FB35C4 /* Calender.swift */,
+				7DE94D64259181F200FB35C4 /* List.swift */,
+				7D3C0F852591891D00B9BD2A /* calenderView.swift */,
 			);
 			path = DoneTracker;
 			sourceTree = "<group>";
@@ -126,6 +184,41 @@
 				7DE94D1425917F0700FB35C4 /* Info.plist */,
 			);
 			path = DoneTrackerUITests;
+			sourceTree = "<group>";
+		};
+		7DE94D2325917F3000FB35C4 /* FormView */ = {
+			isa = PBXGroup;
+			children = (
+				7DE94D2425917F3000FB35C4 /* Cells */,
+				7DE94D3425917F3000FB35C4 /* FormVC.xib */,
+				7DE94D3525917F3000FB35C4 /* FormVC.swift */,
+				7DE94D3625917F3000FB35C4 /* FormProperties.swift */,
+				7DE94D3725917F3000FB35C4 /* extensions.swift */,
+				7DE94D3825917F3000FB35C4 /* FormView.swift */,
+			);
+			path = FormView;
+			sourceTree = "<group>";
+		};
+		7DE94D2425917F3000FB35C4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7DE94D2525917F3000FB35C4 /* StringSub2.swift */,
+				7DE94D2625917F3000FB35C4 /* ImageSelection.swift */,
+				7DE94D2725917F3000FB35C4 /* DateInput.swift */,
+				7DE94D2825917F3000FB35C4 /* DoubleSub.swift */,
+				7DE94D2925917F3000FB35C4 /* IntInput.swift */,
+				7DE94D2A25917F3000FB35C4 /* BoolInput.swift */,
+				7DE94D2B25917F3000FB35C4 /* StringInput.swift */,
+				7DE94D2C25917F3000FB35C4 /* StringSub1.swift */,
+				7DE94D2D25917F3000FB35C4 /* StringTitle.swift */,
+				7DE94D2E25917F3000FB35C4 /* SingleSelection.swift */,
+				7DE94D2F25917F3000FB35C4 /* IntSub.swift */,
+				7DE94D3025917F3000FB35C4 /* DoubleInput.swift */,
+				7DE94D3125917F3000FB35C4 /* ColorInput.swift */,
+				7DE94D3225917F3000FB35C4 /* LongStringInput.swift */,
+				7DE94D3325917F3000FB35C4 /* CellTitleView.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE94D4825917F3000FB35C4 /* FormVC.xib in Resources */,
 				7DE94CFD25917F0700FB35C4 /* LaunchScreen.storyboard in Resources */,
 				7DE94CFA25917F0700FB35C4 /* Assets.xcassets in Resources */,
 				7DE94CF825917F0500FB35C4 /* Main.storyboard in Resources */,
@@ -258,9 +352,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE94D3E25917F3000FB35C4 /* BoolInput.swift in Sources */,
+				7DE94D4225917F3000FB35C4 /* SingleSelection.swift in Sources */,
 				7DE94CF525917F0500FB35C4 /* ViewController.swift in Sources */,
+				7DE94D4725917F3000FB35C4 /* CellTitleView.swift in Sources */,
 				7DE94CF125917F0500FB35C4 /* AppDelegate.swift in Sources */,
+				7DE94D3B25917F3000FB35C4 /* DateInput.swift in Sources */,
+				7DE94D4425917F3000FB35C4 /* DoubleInput.swift in Sources */,
+				7DE94D3C25917F3000FB35C4 /* DoubleSub.swift in Sources */,
+				7DE94D4A25917F3000FB35C4 /* FormProperties.swift in Sources */,
+				7DE94D4325917F3000FB35C4 /* IntSub.swift in Sources */,
+				7DE94D4C25917F3000FB35C4 /* FormView.swift in Sources */,
+				7DE94D3D25917F3000FB35C4 /* IntInput.swift in Sources */,
+				7DE94D4625917F3000FB35C4 /* LongStringInput.swift in Sources */,
+				7DE94D3925917F3000FB35C4 /* StringSub2.swift in Sources */,
+				7DE94D4525917F3000FB35C4 /* ColorInput.swift in Sources */,
+				7DE94D3A25917F3000FB35C4 /* ImageSelection.swift in Sources */,
+				7DE94D532591803700FB35C4 /* Settings Classes.swift in Sources */,
+				7D3C0F862591891D00B9BD2A /* calenderView.swift in Sources */,
+				7DE94D65259181F200FB35C4 /* List.swift in Sources */,
 				7DE94CF325917F0500FB35C4 /* SceneDelegate.swift in Sources */,
+				7DE94D4925917F3000FB35C4 /* FormVC.swift in Sources */,
+				7DE94D4B25917F3000FB35C4 /* extensions.swift in Sources */,
+				7DE94D4125917F3000FB35C4 /* StringTitle.swift in Sources */,
+				7DE94D4025917F3000FB35C4 /* StringSub1.swift in Sources */,
+				7DE94D3F25917F3000FB35C4 /* StringInput.swift in Sources */,
+				7DE94D522591803700FB35C4 /* Back Up.swift in Sources */,
+				7DE94D5C259180EA00FB35C4 /* Calender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +554,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DoneTracker/DoneTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26VASZ3327;
 				INFOPLIST_FILE = DoneTracker/Info.plist;
@@ -455,6 +574,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DoneTracker/DoneTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26VASZ3327;
 				INFOPLIST_FILE = DoneTracker/Info.plist;
